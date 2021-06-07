@@ -1,0 +1,131 @@
+.forgot_password_comp {
+    .full_banner_login {
+        width: 100%;
+        float: left;
+        height: 248px;
+        background: url(../../css/images/login_banner.png) no-repeat center;
+        background-size: cover;
+    }
+
+    .birth_logo {
+        display: block;
+    }
+
+    .close_btn {
+        color: #000;
+        display: none;
+        font-weight: bold;
+        padding-top: 2px;
+    }
+
+    .close_btn img {
+        float: left;
+        margin-right: 7px;
+    }
+
+    .close_btn span {
+        float: left;
+        margin-top: 6px;
+    }
+
+    .login_wite {
+        margin-top: -150px;
+        background: #fff;
+        border-radius: 4px;
+        padding: 40px 50px;
+        float: left;
+        width: 100%;
+        margin-bottom: 40px;
+
+    }
+
+    .login_wite_inner {
+        max-width: 566px;
+        margin: 0 auto;
+    }
+
+    .login_wite_i {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .login_wite_i h5 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .login_wite_i p {
+        color: #8E8E8E;
+    }
+
+    .log_btn {
+        margin-top: 10px;
+    }
+
+    .or_ii {
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+
+    .or_ii img {
+        max-width: 100%;
+    }
+
+    /*================================================= */
+    /* #Media Queries
+    ================================================== */
+    /********************************************************/
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (min-width:100px) and (max-width:920px) {
+        .birth_logo {
+            display: none;
+        }
+
+        .close_btn {
+            display: block;
+        }
+
+        .full_banner_login {
+            display: none;
+        }
+
+        .login_wite {
+            margin-top: 0px;
+            padding: 30px 15px;
+            margin-bottom: 0px;
+            border-radius: 0;
+        }
+
+        .login_wite_i {
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+        .login_wite_i h5 {
+            font-size: 20px;
+        }
+
+        .astrologer_log {
+            padding-top: 45px;
+        }
+
+        .gray_bg {
+            background: #fff;
+        }
+    }
+
+    @media only screen and (min-width:1367px) and (max-width:2500px) {
+        .full_banner_login {
+            /* //height:194px;
+        //background:url(../images/login_banner.png) no-repeat center;
+        //background-size:cover; */
+        }
+
+        .full_banner_login img {
+            /* //display:none; */
+        }
+    }
+}

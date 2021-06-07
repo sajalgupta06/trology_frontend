@@ -1,0 +1,33 @@
+.about_bx {
+    max-width: 850px;
+    width: 100%;
+    padding: 40px 0;
+    float: left;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+/*================================================= */
+/* #Media Queries
+================================================== */
+/********************************************************/
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width:100px) and (max-width:768px) {}
+
+
+@media only screen and (min-width:100px) and (max-width:920px) {
+    .hide_mobile {
+        display: none;
+    }
+
+    .mob_hed {
+        display: block;
+    }
+
+    .about_bx {
+        padding: 40px 10px;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+}

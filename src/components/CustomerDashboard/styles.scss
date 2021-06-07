@@ -1,0 +1,81 @@
+.customer_dashboard_comp {
+    html,
+    body {
+        height: 100%;
+    }
+
+    .fp_menu {
+        width: 100%;
+        float: left;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .fp_menu .nav-tabs {
+        justify-content: center;
+        border-bottom: 0;
+        max-width: 322px;
+        margin: 0 auto;
+        border: 1px solid #d7d7d7;
+        padding: 5px;
+        border-radius: 52px;
+    }
+
+    .fp_menu .nav-tabs li {
+        float: none;
+        display: inline-block;
+    }
+
+    .fp_menu .nav-tabs li a {
+        border-radius: 52px;
+        border: none;
+        padding: 12px 0;
+        color: #000;
+        min-width: 155px;
+    }
+
+    .fp_menu .nav-tabs li a.active {
+        background: #ee8265;
+        color: #fff;
+    }
+
+    .dev_ellipsis_title_cust {
+        white-space: nowrap;
+        width: 230px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /*================================================= */
+    /* #Media Queries
+================================================== */
+    /********************************************************/
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (min-width: 100px) and (max-width: 920px) {
+        .fp_menu {
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+
+        .fp_menu .nav-tabs li a.active {
+            background: #ffffff;
+            color: #ee8265;
+            border-bottom: 3px solid #ee8265;
+        }
+
+        .fp_menu .nav-tabs {
+            border-bottom: 0;
+            max-width: 100%;
+            margin: 0 auto;
+            border: none;
+            border-bottom: 1px solid #d7d7d7;
+            padding: 0px;
+            border-radius: 0;
+        }
+
+        .fp_menu .nav-tabs li a {
+            border-radius: 0;
+            border-bottom: 3px solid #ffffff;
+        }
+    }
+}

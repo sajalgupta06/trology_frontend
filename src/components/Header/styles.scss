@@ -1,0 +1,74 @@
+// @import '../../assets/global-styles/_custom-variables.scss';
+// @import '../../assets/global-styles/utils.scss';
+
+// .app-header {
+//   position: fixed;
+//   left: 0;
+//   right: 0;
+//   display: flex;
+//   height: 70px;
+//   background-color: $blue;
+//   align-items: center;
+//   z-index: 999;
+//   min-width: 320px;
+
+//   &__container {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//   }
+
+//   &__burger-wrap {
+//     display: flex;
+//     justify-content: center;
+//     width: 67px;
+//   }
+
+//   &__logo-wrap {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     align-items: center;
+//     transform: translate(-50%, -50%);
+
+//     @include media-breakpoint-up(sm) {
+//       position: static;
+//       transform: translateX(0);
+//       width: 230px;
+//     }
+//   }
+
+//   &__search-wrap {
+//     display: inline-block;
+//     max-width: 410px;
+//     width: 100%;
+//   }
+// }
+
+// @include media-breakpoint-down(xs) {
+//   .app-header {
+//     height: 140px;
+//   }
+
+//   .mobile-view{
+//     .row{
+//       .col-10{
+//         padding-left: 40px;
+//         padding-right: 0px;
+//       }
+
+//       .col-2{
+//         .user-nav{  
+//           .dropdown-item{
+//             padding: 0.25rem 2.1875rem;
+//           }  
+
+//           button{
+//             padding-top: 0px;
+//             padding-left: 0px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

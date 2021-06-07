@@ -1,0 +1,80 @@
+{
+  "name": "trology-client",
+  "version": "0.1.5",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/pickers": "^3.2.10",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.10.0",
+    "aws-amplify": "^3.3.14",
+    "aws-sdk": "^2.797.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-daterangepicker": "^3.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "loaders.css": "^0.1.2",
+    "logrocket": "^1.0.14",
+    "material-ui-confirm": "^2.1.1",
+    "node-google-timezone": "^0.1.1",
+    "node-sass": "^4.14.1",
+    "query-string": "^6.14.1",
+    "react": "^17.0.1",
+    "react-awesome-query-builder": "^3.0.0",
+    "react-bootstrap-daterangepicker": "^7.0.0",
+    "react-data-table-component": "^6.11.7",
+    "react-dom": "^17.0.1",
+    "react-dropdown": "^1.9.2",
+    "react-google-maps-loader": "^4.3.0",
+    "react-google-places-suggest": "^3.11.0",
+    "react-loaders": "^3.0.1",
+    "react-loading-overlay": "^1.0.1",
+    "react-player": "^2.7.0",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-select-search": "^3.0.2",
+    "react-toast-notifications": "^2.4.0",
+    "reactstrap": "^8.7.1",
+    "reactstrap-date-picker": "0.0.11",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "push": "npm version patch && yarn update-version && git push origin $(git symbolic-ref HEAD | sed -e 's,.*/\\(.*\\),\\1,')",
+    "prebuild": "cp config.json ./src/ && cp version.json ./src/",
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false node --max_old_space_size=6144 ./node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn fetch-config && yarn build",
+    "deploy": "aws s3 sync build/ s3://$(node ./scripts/get-config.js aws.s3.bucket) --delete",
+    "update-version": "node ./scripts/update-version.js \"$(git log -1 --pretty=format:'%an')\" && git add version.json && git commit -m \"Version updated\"",
+    "fetch-config": "aws secretsmanager get-secret-value --secret-id trology-client-${STAGE:-dev}-config | node ./scripts/secret-to-config.js config.json && cat config.json > src/config.json",
+    "update-config": "aws secretsmanager put-secret-value --secret-id trology-client-${STAGE:-dev}-config --secret-string file://config.json"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

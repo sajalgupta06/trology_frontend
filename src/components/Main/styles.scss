@@ -1,0 +1,32 @@
+// @import '../../assets/global-styles/custom-variables';
+// @import '../../assets/global-styles/utils.scss';
+
+// div.main-content {
+//   width: 100%;
+//   padding-top: 70px !important;
+//   // min-height: 750px;
+//   min-height: 100vh;
+
+//   @include media-breakpoint-down(xs) {
+//     padding-top: 130px !important;
+//   }
+
+//   &__container {
+//     border: 1px solid $gray-300;
+//   }
+
+//   @include media-breakpoint-up(xl) {
+//     margin-left: 55px;
+//     width: calc(100% - 55px);
+//     transition: width linear .3s, margin linear .3s;
+
+//     &_nav-open {
+//       margin-left: 255px;
+//       width: calc(100% - 255px);
+//     }
+//   }
+
+//   @include media-breakpoint-up(lg) {
+//     padding-top: 91px !important;
+//   }
+// }

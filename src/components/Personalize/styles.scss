@@ -1,0 +1,390 @@
+.personalize_comp {
+    .hed_left_tw {
+        width: 50%;
+        float: left;
+    }
+
+    .hed_right_tw {
+        width: 50%;
+        float: right;
+    }
+
+    .user_photo:hover,
+    .user_photo:focus,
+    .user_photo {
+        color: #000000;
+        padding: 7px 15px;
+        background: #FFC9BB;
+        border-radius: 2px;
+        margin-left: 19px;
+        text-decoration: none;
+        float: right;
+        margin-top: 7px;
+    }
+
+    .user_photo img {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        margin-right: 7px;
+    }
+
+    .full_banner {
+        width: 100%;
+        float: left;
+    }
+
+    .full_banner img {
+        max-width: 100%;
+    }
+
+    .white_box {
+        width: 100%;
+        //max-width:1112px;
+        position: relative;
+        margin-top: -94px;
+        z-index: 9;
+        float: left;
+        background: #fff;
+        border: 1px solid #C9C9C9;
+        border-radius: 4px;
+        margin-bottom: 70px;
+    }
+
+    .birth_d {}
+
+    .birth_d .card-title table {
+        width: 100%;
+    }
+
+    .birth_d .card-title td {
+        vertical-align: center;
+    }
+
+    .birth_d .card-title td:first-child {
+        width: 35px;
+        padding-right: 15px;
+    }
+
+    .birth_d .card-title h4 {
+        font-size: 22px;
+    }
+
+    .birth_d .card-title p {
+        margin: 0;
+        color: #8E8E8E;
+    }
+
+    .birth_d .card-header {
+        padding: 20px;
+        background: #fff;
+        position: relative;
+        padding-right: 40px;
+        border-bottom: 1px solid #C9C9C9;
+        //border-top: 1px solid #C9C9C9;
+    }
+
+    .birth_d .card {
+        border: none;
+    }
+
+    .birth_d .card-header[aria-expanded="true"] i {
+        transform: rotate(180deg);
+    }
+
+    .birth_d .card-header i {
+        position: absolute;
+        right: 20px;
+        top: 35px;
+        font-size: 17px;
+        color: #8E8E8E;
+    }
+
+    .birth_d .card-body {
+        padding: 0;
+        border-bottom: 1px solid #C9C9C9;
+    }
+
+    .birth_i {
+        padding: 25px 75px;
+
+    }
+
+    .form-control:focus,
+    .form-control:hover,
+    .form-control {
+        height: 44px !important;
+        width: 100%;
+        padding: 0 10px;
+        border: 1px solid #E2E8F0;
+        background: #F2F2F2;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -khtml-border-radius: 2px;
+        border-radius: 2px;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        font-size: 14px;
+    }
+
+    .slect_towarrow {
+        position: relative;
+    }
+
+    .slect_towarrow:before {
+        content: '';
+        right: 2px;
+        top: 2px;
+        width: 20px;
+        height: 30px;
+        position: absolute;
+        pointer-events: none;
+        display: block;
+        background: #F2F2F2;
+        z-index: 9;
+        border-radius: 4px;
+    }
+
+    .customdrop:after,
+    .slect_towarrow:after {
+        z-index: 999;
+        content: '>';
+        font: 22px "Consolas", monospace;
+        color: #aaa;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        right: 8px;
+        top: 10px;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .form-control[type=password],
+    .form-control[type=text] {
+        height: 38px;
+    }
+
+    .full_tab_in td:nth-child(1),
+    .full_tab_in td:nth-child(2) {
+        padding-right: 10px;
+        //width:115px;
+        width: 30%;
+    }
+
+    .two_box td:nth-child(1) {
+        padding-right: 15px;
+    }
+
+    .two_box td:nth-child(2) {
+        padding-left: 15px;
+    }
+
+    .in_tex_title {
+        color: #000;
+        margin-bottom: 7px;
+        font-weight: 400;
+    }
+
+    .in_tex {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+
+    .org_btn:hover,
+    .org_btn:focus,
+    .org_btn {
+        background: #EE8265;
+        border-radius: 2px;
+        padding: 10px 10px;
+        border: none;
+        color: #fff;
+        outline: none;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .birth_ii p {
+        margin-bottom: 20px;
+    }
+
+    .birth_ii img {
+        max-width: 100%;
+    }
+
+    .orim {
+        max-height: 25px;
+    }
+
+    .in_tex_title_ii {
+        margin-bottom: 25px;
+        font-weight: bold;
+    }
+
+    .pass_eye {
+        position: relative;
+    }
+
+    .pa_ey_icon:focus,
+    .pa_ey_icon:hover,
+    .pa_ey_icon {
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #EE8265;
+        border-radius: 2px;
+        padding: 9px 10px;
+        border: none;
+        color: #fff;
+        outline: none;
+        width: 44px;
+        height: 44px;
+    }
+
+    .terms_policy {
+        margin-bottom: 25px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .terms_policy a {
+        color: #EE8265;
+
+    }
+
+    .birth_logo {
+        display: block;
+    }
+
+    .close_btn {
+        color: #000;
+        display: none;
+        font-weight: bold;
+        padding-top: 2px;
+    }
+
+    .close_btn img {
+        float: left;
+        margin-right: 7px;
+    }
+
+    .close_btn span {
+        float: left;
+        margin-top: 6px;
+    }
+
+    .birth_mobs {
+        position: relative;
+        width: 100%;
+        display: none;
+        margin-bottom: 10px;
+        float: left;
+    }
+
+    .birth_mobs h6 {
+        font-weight: bold;
+        margin-bottom: 5px;
+        padding-right: 100px;
+    }
+
+    .birth_mobs p {
+        color: #8E8E8E;
+
+    }
+
+    .Step_text:hover,
+    .Step_text:focus,
+    .Step_text {
+        right: 0;
+        top: 0;
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        position: absolute;
+    }
+
+    .per_fullbx {
+        float: left;
+        width: 100%;
+    }
+
+    /*================================================= */
+    /* #Media Queries
+================================================== */
+    /********************************************************/
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (min-width:100px) and (max-width:920px) {
+        .gray_bg {
+            background: #fff;
+        }
+
+        .white_box {
+            border: none;
+            margin-top: 1px;
+            padding-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .full_banner {
+            display: none;
+        }
+
+        .birth_i {
+            border: none !important;
+            padding: 15px;
+        }
+
+        .birth_logo {
+            display: none;
+        }
+
+        .user_photo {
+            padding: 5px 10px;
+            margin-top: 0;
+        }
+
+        .close_btn {
+            display: block;
+        }
+
+        .org_btn {
+            max-width: 250px;
+            margin: 0 auto;
+        }
+
+        .birth_d .card-header {
+            display: none;
+        }
+
+        .birth_d .card-body {
+            border: none;
+        }
+
+        .birth_i .col-md-6 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .birth_mobs {
+            display: block;
+        }
+
+        .birth_ii img {
+            max-height: 35px;
+        }
+
+        .orim {
+            max-height: 25px !important;
+        }
+
+        .terms_policy {
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,289 @@
+.horoscope_comp {
+    .chart_box {
+        background: #FFFBBE;
+    }
+
+    .horo_box {
+        width: 100%;
+        border-left: 10px solid #EE8265;
+        border-right: 10px solid #EE8265;
+        border-bottom: 10px solid #EE8265;
+        background: #fff;
+        padding: 40px 0 20px 0;
+        float: left;
+        font-size: 15px;
+    }
+
+    .hb_title {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        float: left;
+        padding: 0 3%;
+    }
+
+    .gray_line {
+        border-bottom: 2px solid #EE8265;
+
+    }
+
+    .hb_title h4 {
+        border: 2px solid #EE8265;
+        position: relative;
+        color: #EE8265;
+        background: #fff;
+        max-width: 260px;
+        margin: -24px auto 0 auto;
+        border-radius: 35px;
+        z-index: 99;
+        padding: 6px;
+    }
+
+    .horo_i {
+        padding: 20px 3%;
+        width: 100%;
+        float: left;
+    }
+
+    .horo_i_left {
+        width: 48%;
+        float: left;
+    }
+
+    .hb_subtitle {
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hb_subtitle img {
+        max-width: 100%;
+    }
+
+    .hb_subtitle h5 {
+        color: #545f7c;
+        margin-bottom: 7px;
+    }
+
+    .hil_a {
+        border: 2px solid #fff;
+        width: 100%;
+        float: left;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    .hil_a:hover {
+        border: 2px solid #EE8265;
+    }
+
+    .hil_a table {
+        width: 100%;
+    }
+
+    .hil_a td {
+        padding: 5px 10px;
+    }
+
+    .hil_a tr:nth-child(even) {
+        background: #f2f2f2;
+    }
+
+
+    .horo_i_right {
+        width: 48%;
+        float: right;
+    }
+
+    .horo_ii {
+        border-top: 10px solid #EE8265;
+        width: 100%;
+        float: left;
+        padding-top: 50px;
+    }
+
+    .horo_iii {
+        width: 100%;
+        float: left;
+        padding: 20px 3%;
+    }
+
+    .horo_iii_left {
+        width: 48%;
+        float: left;
+    }
+
+    .horo_iii_right {
+        width: 48%;
+        float: right;
+        ;
+
+    }
+
+    .chart_bx img {
+        padding: 7px;
+        width: 100%;
+        border: 2px solid #EE8265;
+    }
+
+    .hiiir_bx {
+        width: 100%;
+        padding: 20px;
+        border: 2px solid #ffe8c6;
+        float: left;
+        line-height: 250%;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .horo_iv {
+        width: 100%;
+        float: left;
+        padding: 20px 3%;
+    }
+
+    .horo_iv .hb_subtitle {
+        padding: 30px 0;
+    }
+
+    .horo_iv_left {
+        width: 48%;
+        float: left;
+    }
+
+    .horo_iv_right {
+        width: 48%;
+        float: right;
+    }
+
+    .video_Explore {
+        width: 100%;
+        float: right;
+        line-height: 50px;
+        font-size: 16px;
+        text-align: right;
+    }
+
+    .video_Explore a {
+        color: #000000;
+        padding: 7px 23px;
+        background: #FFC9BB;
+        border-radius: 2px;
+        margin-left: 19px;
+        text-decoration: none;
+    }
+
+    /*================================================= */
+    /* #Media Queries
+================================================== */
+    /********************************************************/
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (min-width:100px) and (max-width:767px) {
+        .close_btn {
+            display: block;
+        }
+
+        .birth_logo {
+            display: none;
+        }
+
+        .hed_right_tw {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            background: #EEEEEE;
+            box-shadow: 0px -21px 26px -12px rgba(0, 0, 0, 0.05);
+            top: 50px;
+            padding: 0 15px;
+        }
+
+        .video_Explore {
+            text-align: left;
+            float: left;
+            font-size: 12px;
+        }
+
+        .video_Explore a {
+            margin-left: 10px;
+        }
+
+        .horo_i_left {
+            width: 100%;
+        }
+
+        .horo_i_right {
+            width: 100%;
+        }
+
+        .horo_iii_left {
+            width: 100%;
+        }
+
+        .horo_iii_right {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .horo_iv_left {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .horo_iv_right {
+            width: 100%;
+        }
+
+        .horo_box {
+            margin: 0 2%;
+            width: 96%;
+            padding: 90px 0 20px 0;
+        }
+    }
+
+    @media only screen and (min-width:768px) and (max-width:920px) {
+        .close_btn {
+            display: block;
+        }
+
+        .birth_logo {
+            display: none;
+        }
+
+        .hed_right_tw {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            background: #EEEEEE;
+            box-shadow: 0px -21px 26px -12px rgba(0, 0, 0, 0.05);
+            top: 50px;
+            padding: 0 15px;
+        }
+
+        .video_Explore {
+            text-align: left;
+            float: left;
+            font-size: 12px;
+        }
+
+        .video_Explore a {
+            margin-left: 10px;
+        }
+
+        .horo_box {
+            margin: 0 2%;
+            width: 96%;
+            padding: 90px 0 20px 0;
+        }
+    }
+
+    @media only screen and (min-width:921px) and (max-width:1024px) {
+        .horo_box {
+            margin: 0 2%;
+            width: 96%;
+        }
+    }
+
+    @media only screen and (min-width:1367px) and (max-width:2500px) {}
+}

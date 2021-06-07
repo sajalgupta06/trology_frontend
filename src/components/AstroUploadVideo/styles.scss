@@ -1,0 +1,436 @@
+.v_progre {
+    width: 100%;
+    float: left;
+    border-radius: 2px;
+    background: #F6F6F6;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.v_progre p {
+    margin-bottom: 10px;
+}
+
+.Uploading_lod {
+    height: 15px;
+    float: left;
+    width: 90%;
+    margin-right: 10px;
+    border-radius: 0;
+}
+
+.Uploading_lod .progress-bar {
+    background: #EE8265;
+}
+
+.par_pro {
+    font-weight: bold;
+    margin-top: -6px;
+    float: left;
+    font-size: 18px;
+}
+
+.v_progre_full {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.v_progre_full p.While_text {
+    color: #8E8E8E;
+    font-size: 16px;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+
+.video_form {
+    font-size: 16px;
+    //max-width:524px;
+    float: left;
+    width: 100%;
+}
+
+.video_form input:focus,
+.video_form input:hover,
+.video_form input {
+    font-size: 16px;
+    height: 50px !important;
+    padding: 0 15px;
+
+}
+
+.vf_bx {
+    width: 100%;
+    float: left;
+}
+
+.vf_bx textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #E2E8F0;
+    background: #F2F2F2;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    //font-size: 14px;
+    color: #000;
+    height: 156px;
+}
+
+.vf_bx textarea:focus {
+    outline: none;
+}
+
+.index99 {
+    z-index: 99;
+}
+
+.recommended {
+    color: #747272;
+    font-size: 14px;
+    margin-left: 22px;
+}
+
+
+
+
+.upload_thumbnail {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upload_thumbnail .btn {
+    border: 1.5px dashed #8E8E8E;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload_thumbnail .btn:hover {
+    cursor: pointer;
+}
+
+.upload_thumbnail input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.priview {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.priview img.Thumbnail_im {
+    width: 100%;
+    max-width: 400px;
+}
+
+.priview td {
+    vertical-align: top;
+}
+
+.priview a {
+    color: #EE8265;
+    float: right;
+}
+
+.priview a:hover {
+    text-decoration: none;
+}
+
+.priview a img {
+    margin-right: 7px;
+    float: left;
+    margin-top: 5px;
+}
+
+.Age_range {
+    float: left;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.Age_range input {
+    max-width: 65px;
+}
+
+.Age_range td {
+    padding: 0 7px;
+}
+
+.Age_range td:first-child {
+    padding-left: 0;
+}
+
+.Expiry_date select:focus,
+.Expiry_date select:hover,
+.Expiry_date select {
+    font-size: 16px;
+    height: 50px !important;
+    padding: 0 15px;
+}
+
+.Expiry_date .customdrop:after,
+.Expiry_date .slect_towarrow:after {
+    top: 13px;
+}
+
+.full_tab_in td:nth-child(1),
+.full_tab_in td:nth-child(2) {
+    padding-right: 10px;
+    width: 115px !important;
+    width: 30%;
+}
+
+.Expiry_date table {
+    max-width: 452px;
+    width: 100%;
+}
+
+
+.Targeting_inner {
+    width: 100%;
+    float: left;
+    border-radius: 2px;
+    background: #F6F6F6;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pati_desilable {
+    float: left;
+    padding: 1px 7px;
+    background: #E0E0E0;
+    border-radius: 4.62771px;
+    border: 1px solid #E2E8F0;
+    margin-right: 15px;
+}
+
+.pati_desilable img {
+    max-height: 10px;
+    margin-right: 7px;
+    float: left;
+    margin-top: 7px;
+}
+
+.pati_desilable img:hover {
+    cursor: pointer;
+}
+
+.SUGGESTED {
+    margin: 30px 0;
+    float: left;
+    width: 100%;
+}
+
+.SUGGESTED .in_tex_title {
+    color: #797979;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.SUGGESTED a {
+    margin-right: 20px;
+    color: #8E8E8E;
+}
+
+.SUGGESTED a.active {
+    color: #EE8265;
+}
+
+.SUGGESTED p {
+    margin: 0;
+}
+
+.more_show {
+    color: #000;
+    cursor: pointer;
+}
+
+.ab_tagpp_title {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.your_attr {
+    width: 100%;
+    float: left;
+    //margin-top:20px;
+    padding: 50px 70px;
+}
+
+.your_attr p {
+    font-size: 16px;
+    color: #8E8E8E;
+    margin: 0;
+}
+
+.your_attr p span {
+    color: #EE8265;
+}
+
+.your_attr_innr {
+    float: left;
+    width: 100%;
+    padding: 30px 0 60px 0;
+}
+
+.your_attr_innr a {
+    color: #8E8E8E;
+    background: #F2F2F2;
+    border-radius: 32.775px;
+    padding: 12px 40px;
+    //float:left;
+    display: inline-block;
+    margin: 7px 14px 7px 0;
+}
+
+.your_attr_innr a.active,
+.your_attr_innr a:hover {
+    color: #EE8265;
+    background: #FFE6DF;
+    text-decoration: none;
+}
+
+.fix_top {
+    position: fixed !important;
+}
+
+.ab_pp_donbtn {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.ab_pp_donbtn .org_btn {
+    max-width: 452px;
+    width: 100%;
+}
+
+.ab_vinner {
+    max-width: 714px;
+}
+
+/********************************************************/
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width:100px) and (max-width:920px) {
+
+    .grabg_box,
+    .hide_mobile {
+        display: none;
+    }
+
+    .wpay {
+        padding: 35px 15px;
+        padding-top: 70px;
+        margin: 0;
+    }
+
+    .mob_hed {
+        z-index: 999;
+        display: block;
+    }
+
+    .Uploading_lod {
+        border-radius: 0;
+        height: 7px;
+    }
+
+    .Uploading_lod .progress-bar {
+        border-radius: 0;
+        height: 7px;
+
+    }
+
+    .Uploading_lod {
+        width: 80%;
+    }
+
+    .par_pro {
+        margin-top: -8px;
+        font-size: 16px;
+    }
+
+    .v_progre_full {
+        margin-bottom: 20px;
+    }
+
+    .vf_bx textarea {
+        height: 110px;
+    }
+
+    .recommended {
+        font-size: 12px;
+        margin-left: 0;
+        width: 100%;
+        float: left;
+        margin-bottom: 15px;
+    }
+
+    .upload_thumbnail .btn {
+        font-size: 14px;
+    }
+
+    .priview {
+        position: relative;
+    }
+
+    .priview a {
+        position: absolute;
+        right: 0;
+        top: -45px;
+        font-size: 14px;
+    }
+
+    .pati_desilable {
+
+        margin-right: 7px;
+        font-size: 12px;
+    }
+
+    .SUGGESTED a {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .mob_hed_ppp {
+        z-index: 9999;
+    }
+
+    .your_attr {
+        padding: 15px;
+    }
+
+    .Targeting_inner {
+        padding: 15px;
+    }
+
+    .your_attr_innr a {
+        padding: 8px 20px;
+
+    }
+
+    .ab_tagpp_title {
+        display: none;
+    }
+
+    .ab_vinner {
+        max-width: 100%;
+    }
+}

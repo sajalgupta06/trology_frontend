@@ -1,0 +1,123 @@
+
+.ab_vinner{
+	max-width:714px;
+}
+.Create{font-size: 16px;
+	color: #8E8E8E;
+	    margin: 0;
+}
+.offer h5{
+	font-size: 22px;
+	margin-bottom:25px;
+}
+.offer_inner_top{ padding:40px 0 15px 0;
+	float:left;
+	width:100%;
+	border-bottom: 1.8367px dashed #E0E0E0;
+}
+.noborder{
+	border-bottom:none !important;
+}
+.Delete_text{
+	position:absolute;
+	right:65px;
+	color:#EE8265;
+	font-size:16px;
+}
+.Delete_text:hover{
+	color:#EE8265;
+	text-decoration:none;
+}
+.offer_inner{ 
+	float:left;
+	width:100%;
+	max-width:452px;
+}
+.vf_bx {
+    width: 100%;
+    float: left;
+}
+.vf_bx textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #E2E8F0;
+    background: #F2F2F2;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    //font-size: 14px;
+    color: #000;
+    height: 156px;
+}
+.vf_bx textarea:focus{
+	outline:none;
+}
+.in_tex_new input{
+	width:107px;
+}
+.in_tex_new input:focus,
+.in_tex_new input:hover{
+	width:auto !important;
+	width:107px !important;
+}
+.in_tex_new .sel_drop{
+	width:63px;
+    border: 1px solid #ee8265;
+    background: #ee8265;
+
+    color: #fff;
+}
+.in_tex_new .input-group{
+	max-width:170px;
+}
+.Add_Offer{
+	color:#EE8265;
+font-size: 20px;
+
+font-weight: 400;
+padding:10px 40px 40px 40px;
+float:left;
+width:100%;
+
+}
+.Add_Offer:hover{
+	color:#EE8265;
+	text-decoration:none;
+}
+/********************************************************/
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width:100px) and (max-width:920px) {
+	.grabg_box,
+.hide_mobile{
+	display:none;
+}
+.wpay {
+    padding: 35px 15px;
+    padding-top: 70px;
+	    margin:0;
+}
+
+
+.Delete_text {
+
+    right: 15px;
+
+}
+.offer h5 {
+    font-size: 14px;
+}
+.gray_bg{
+	background:#fff;
+}
+.ab_vinner {
+   width: 100%;
+}
+.offer_inner_top {
+    padding: 30px 0 5px 0;
+	
+}
+}
